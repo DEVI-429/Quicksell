@@ -1,0 +1,28 @@
+.displayOptions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .displayOptions label {
+    font-size: 1em;
+    font-weight: 400;
+    color: grey;
+  }
+  
+  .displayOptions select {
+    padding: 5px 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    outline: none;
+  }
+  
+.options{
+    padding: 10px;
+    border-radius:5px ;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  

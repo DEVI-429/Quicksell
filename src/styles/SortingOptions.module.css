@@ -1,0 +1,22 @@
+.sortingOptions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .sortingOptions label {
+    font-size: 1em;
+    font-weight: 400;
+    color: grey;
+  }
+  
+  .sortingOptions select {
+    padding: 5px 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    outline: none;
+  }
+  

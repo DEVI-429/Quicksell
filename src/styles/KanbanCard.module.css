@@ -1,0 +1,29 @@
+.kanbanCard {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.kanbanCard:hover {
+  transform: translateY(-5px);
+}
+
+.kanbanCard > img{
+  height: 50px;
+  width: 50px;
+  border: 100px;
+}
+
+.kanbanCard h4 {
+  font-size: 1.1em;
+  margin: 5px 0;
+  font-weight: 500;
+}
+
+.kanbanCard p {
+  font-size: 0.9em;
+  color: #666;
+}
